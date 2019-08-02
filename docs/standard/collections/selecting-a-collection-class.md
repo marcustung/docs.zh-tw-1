@@ -79,7 +79,7 @@ ms.locfileid: "58185554"
   - 此外，您可以使用 <xref:System.Collections.Generic> 命名空間中的任何泛型集合類別做為強類型字串集合，方法是指定其泛型類型引數的 <xref:System.String> 類別。 例如，您可以將變數的型別宣告為 [List\<String>](xref:System.Collections.Generic.List%601) 或 [Dictionary<String,String>](xref:System.Collections.Generic.Dictionary%602)。
   
 ## <a name="linq-to-objects-and-plinq"></a>LINQ to Objects 和 PLINQ  
- 只要物件類型實作 <xref:System.Collections.IEnumerable> 或 <xref:System.Collections.Generic.IEnumerable%601>，LINQ to Objects 就可讓開發人員使用 LINQ 查詢以存取記憶體內的物件。 LINQ 查詢提供一般模式以存取資料，比標準的 `foreach` 迴圈更精簡、可讀性更高，並提供篩選、排序和群組功能。 如需詳細資訊，請參閱 [LINQ to Objects (C#)](../../csharp/programming-guide/concepts/linq/linq-to-objects.md) 和 [LINQ to Objects (Visual Basic)](../../visual-basic/programming-guide/concepts/linq/linq-to-objects.md)。  
+ 只要物件類型實作 <xref:System.Collections.IEnumerable> 或 <xref:System.Collections.Generic.IEnumerable%601>，LINQ to Objects 就可讓開發人員使用 LINQ 提供的 API 查詢已存放在記憶體內的物件。 LINQ 查詢提供一般模式以存取資料，比標準的 `foreach` 迴圈更精簡、可讀性更高，並提供篩選、排序和群組功能。 如需詳細資訊，請參閱 [LINQ to Objects (C#)](../../csharp/programming-guide/concepts/linq/linq-to-objects.md) 和 [LINQ to Objects (Visual Basic)](../../visual-basic/programming-guide/concepts/linq/linq-to-objects.md)。  
   
  PLINQ 提供 LINQ to Objects 的平行實作，這項實作透過更有效率地使用多核心電腦，在許多情況下會提供更快的查詢執行速度。 如需詳細資訊，請參閱 [Parallel LINQ (PLINQ)](../../../docs/standard/parallel-programming/parallel-linq-plinq.md)。  
   
